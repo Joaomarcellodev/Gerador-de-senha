@@ -87,7 +87,7 @@ body{
     transform:scale(1.05);
 }
 
-.toolt{
+.tooltip{
     color: #FFF;
     position: relative;
     top: 20px;
