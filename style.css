@@ -31,6 +31,10 @@ body{
     font-size: 22px;
 }
 
+#tamanho{
+    margin: 120px;
+}
+
 .slider{
     -webkit-appearance: none;
     width: 100%;
@@ -110,3 +114,29 @@ body{
     bottom: 50px;
     opacity: 1;
 }
+
+
+@media (max-width: 768px) {
+   
+    .logo{
+    max-width: 300px;
+    }
+
+    .button-cta{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 80%;
+    }
+
+    .slider{
+        display: flex;
+        justify-content: center;
+        width: 90%;
+    }
+
+   #tamanho{
+    margin: 90px;
+   }
+
+  }
